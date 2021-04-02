@@ -8,13 +8,19 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
     <title>Pixelator 2.0</title>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Pixelator 2.0</h1>
+  </header>
+  <div class="container">
     <label for="quantity">Pixelation size:</label>
     <input type="number" name="quantity" id="quantity"/>
+    <button type="submit" class="submit">SUBMIT</button>
     <button class="reset">RESET</button>
     <div class="pixel-canvas">
     </div>

@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --background: #e3e7d1;
+  --color2: #b2bca5;
+  --font: #2b384d;
+  --border: #354b70;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Oswald", sans-serif;
+  color: var(--font);
+}
+
+header {
+  font-size: 2rem;
+}
+
+.pixel-canvas {
+  display: grid;
+  max-width: 500px;
+  min-height: 500px;
+  margin: 2rem auto;
+  border: 2px solid var(--border);
+}
+
+.div-grid {
+  border: 1px solid var(--border);
+}
