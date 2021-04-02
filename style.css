@@ -34,8 +34,13 @@ button {
   margin: 2px;
 }
 
+label {
+  margin-right: 4px;
+}
+
 input {
   background-color: var(--background);
+  margin-right: 6px;
 }
 
 footer {

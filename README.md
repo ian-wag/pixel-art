@@ -1,5 +1,5 @@
 # pixel-art
 
-A simple grid based drawing app using JavaSript.
+A simple grid based drawing app using JavaScript.
 
-Live Demo 👉 https://iwagner76.github.io/pixel-art/
+👉 [LIVE DEMO](https://iwagner76.github.io/pixel-art/)
