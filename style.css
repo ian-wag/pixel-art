@@ -65,6 +65,7 @@ footer {
 
 .footer {
   display: flex;
+  height: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
   justify-content: space-between;
@@ -76,3 +77,21 @@ footer {
 .footer-right {
   align-self: center;
 }
+
+.links {
+  color: var(--font);
+  transition: color 300ms ease;
+  cursor: pointer;
+}
+
+.links:visited {
+    color: var(--font);
+  }
+  
+.links:hover {
+    color: var(--background);
+  }
+  
+.links:focus {
+    color: var(--background);
+    outline: none;
