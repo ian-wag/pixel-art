@@ -15,10 +15,35 @@ body {
   background-color: var(--background);
   font-family: "Oswald", sans-serif;
   color: var(--font);
+  margin-bottom: 5rem;
 }
 
 header {
   font-size: 2rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+h2 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+button {
+  margin: 2px;
+}
+
+input {
+  background-color: var(--background);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--color2);
+  width: 100%;
+  min-height: 3rem;
 }
 
 .pixel-canvas {
@@ -31,4 +56,23 @@ header {
 
 .div-grid {
   border: 1px solid var(--border);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: space-between;
+}
+.footer-middle {
+  align-self: center;
+}
+
+.footer-right {
+  align-self: center;
 }
