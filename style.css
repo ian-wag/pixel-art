@@ -85,13 +85,14 @@ footer {
 }
 
 .links:visited {
-    color: var(--font);
-  }
-  
+  color: var(--font);
+}
+
 .links:hover {
-    color: var(--background);
-  }
-  
+  color: var(--background);
+}
+
 .links:focus {
-    color: var(--background);
-    outline: none;
+  color: var(--background);
+  outline: none;
+}
