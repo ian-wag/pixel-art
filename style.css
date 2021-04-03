@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* custom colors */
 :root {
   --background: #e3e7d1;
   --color2: #b2bca5;

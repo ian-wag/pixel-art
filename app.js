@@ -7,6 +7,8 @@ window.addEventListener("load", setDefaultGrid);
 resetButton.addEventListener("click", resetSize);
 submitButton.addEventListener("click", changeSize);
  
+
+
 function setDefaultGrid() {
     setCanvasSize(20);
     fillGrid(20);
@@ -38,7 +40,7 @@ function changeSize() {
   
     if (newSize !== null) {
       if (newSize < 1 || newSize > 64 || Number.isNaN(newSize)) {
-        alert("Enter a number from 1-64 range");
+        alert("Enter a number from 1-64");
       } else {
         clearGrid();
         setCanvasSize(newSize);
