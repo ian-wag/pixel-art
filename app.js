@@ -8,16 +8,18 @@ resetButton.addEventListener("click", resetSize);
 submitButton.addEventListener("click", changeSize);
  
 
-
+//The starting canvas size
 function setDefaultGrid() {
     setCanvasSize(20);
     fillGrid(20);
 }
 
+//Creates grid template for canvas
 function setCanvasSize (size) {
     pixelCanvas.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
 }
 
+//Creates each div for canvas
 function fillGrid (size) {
     for (let i = 0; i < size * size; i++) {
         
@@ -29,12 +31,14 @@ function fillGrid (size) {
     }
 }
 
+//Randomizes blue and green color values
 function fillColor(e) {
     const randomG = Math.floor(Math.random() * 256);
     const randomB = Math.floor(Math.random() * 256);
     e.target.style.backgroundColor = `rgb(20, ${randomG}, ${randomB})`;
 }
-  
+
+//Changes canvas size
 function changeSize() {
     let newSize = userInput.value;
   
@@ -49,7 +53,7 @@ function changeSize() {
     }
   }
 
-
+//Removes the divs created by fillGrid function
 function clearGrid() {
     const gridArray = Array.from(pixelCanvas.childNodes);
     gridArray.forEach((element) => {
@@ -57,6 +61,7 @@ function clearGrid() {
     });
   }
 
+//Resets the grid to the original demensions 
 function resetSize() {
     clearGrid();
     setDefaultGrid();
@@ -64,6 +69,7 @@ function resetSize() {
 
 }
 
+//removes input filed dropdown menu
 function clearFields() {
     document.getElementById("quantity").value="";
 }
