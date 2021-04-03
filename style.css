@@ -22,7 +22,7 @@ body {
 header {
   font-size: 2rem;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 h2 {
@@ -54,8 +54,8 @@ footer {
 
 .pixel-canvas {
   display: grid;
-  max-width: 500px;
-  min-height: 500px;
+  max-width: 600px;
+  min-height: 600px;
   margin: 2rem auto;
   border: 2px solid var(--border);
 }
